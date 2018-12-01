@@ -1,0 +1,88 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }   
+  body {  
+      font-size: 18px;
+      color: aqua;
+      width: 960px;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+      color: #777;
+      background-color: #777;
+
+  }    
+  .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+ .myheader {
+      text-align: center;
+      color: #777;
+      width: 960px;
+      background-color: #ebebeb;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+  }
+  .mynav {
+      text-align: center;
+      color: #777;
+      background-color: #ebebeb;
+      width: 960px;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+  }
+  .mywrapper article {
+      text-align: center;
+      background-color: lightblue;
+      color: #ebebeb;
+      background-color: #777;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+  }
+  .mywrapper h1, p {
+      text-align: center;
+      color: #777;
+      background-color: #ebebeb;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+  }
+  .myfooter {
+      color: #777;
+      width: 960px;
+      background-color: #ebebeb;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+  }
+ .mysection {
+      width: 495px;
+      float: left; 
+      text-align: center;
+      color: #777;
+      background-color: #ebebeb;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+ } 
+ .myaside {
+      color: #777;
+      background-color: #ebebeb;
+      background-color: green;
+      float: left; 
+      text-align: center;
+      width: 404px;
+      margin: 10px;
+      padding: 10px;
+      border: 10px;
+ } 
