@@ -11,7 +11,6 @@ html {
       width: 960px;
       margin: 10px;
       padding: 10px;
-      border: 10px;
       color: #777;
       background-color: #777;
 
@@ -24,20 +23,24 @@ html {
  .myheader {
       text-align: center;
       color: #777;
-      width: 960px;
+      width: 940px;
       background-color: #ebebeb;
-      margin: 10px;
-      padding: 10px;
+      margin: 20px;
+      padding: 20px;
       border: 10px;
   }
   .mynav {
       text-align: center;
       color: #777;
       background-color: #ebebeb;
-      width: 960px;
+      width: 940px;
+      margin: 20px;
+      padding: 20px;
+  }
+  .mywrapper {
+      width: 970px;
       margin: 10px;
       padding: 10px;
-      border: 10px;
   }
   .mywrapper article {
       text-align: center;
@@ -46,7 +49,6 @@ html {
       background-color: #777;
       margin: 10px;
       padding: 10px;
-      border: 10px;
   }
   .mywrapper h1, p {
       text-align: center;
@@ -54,16 +56,6 @@ html {
       background-color: #ebebeb;
       margin: 10px;
       padding: 10px;
-      border: 10px;
-  }
-  .myfooter {
-      color: #777;
-      width: 960px;
-      background-color: #ebebeb;
-      text-align: center;
-      margin: 10px;
-      padding: 10px;
-      border: 10px;
   }
  .mysection {
       width: 495px;
@@ -71,18 +63,23 @@ html {
       text-align: center;
       color: #777;
       background-color: #ebebeb;
-      margin: 10px;
-      padding: 10px;
-      border: 10px;
+      margin: 0px;
+      padding: 0px;
  } 
  .myaside {
       color: #777;
       background-color: #ebebeb;
-      background-color: green;
       float: left; 
       text-align: center;
-      width: 404px;
-      margin: 10px;
-      padding: 10px;
-      border: 10px;
+      width: 434px;
+      height: 200px;
+      margin-left: 10px;
  } 
+  .myfooter {
+      color: #777;
+      width: 940px;
+      background-color: #ebebeb;
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+  }
